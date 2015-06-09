@@ -26,7 +26,7 @@ main.html
 ## 3. Incorporar el grown en los controladores que van a utilizar notificaciones
 
 Por ejemplo:
-
+<pre>
 <code>
 nombreModulo.controller('nombreControlador', ['$scope', 'growl', function ($scope, growl) {
 
@@ -51,3 +51,4 @@ nombreModulo.controller('nombreControlador', ['$scope', 'growl', function ($scop
   
 }]);
 </code>
+</pre>
