@@ -32,6 +32,7 @@ nombreModulo.controller('nombreControlador', ['$scope', 'growl', function ($scop
   growl.info("Mensaje de la notificación de información", {title : 'Titulo de la notificación de información'});
   
   growl.warning("Mensaje de la notificación de advertencia", {title : 'Titulo de la notificación de advertencia'});   
+  
   // No necesariamente necesitan tener titulo por ejemplo
   
   growl.error("Mensaje de la notificación de error");
