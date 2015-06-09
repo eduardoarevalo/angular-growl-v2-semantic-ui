@@ -16,10 +16,10 @@ Por ejemplo:
 main.html
 
 <code>
-&<div class="main container">
-&    <div growl></div>
+&< div class="main container">
+&    < div growl></div>
 &    ....
-&</div>
+&< /div>
 </code>
 
 
