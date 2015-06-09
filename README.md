@@ -15,10 +15,12 @@ Por ejemplo:
 
 main.html
 
-<code><div class="main container">
-    <div growl></div>
-    ....
-</div></code>
+<code>
+&<div class="main container">
+&    <div growl></div>
+&    ....
+&</div>
+</code>
 
 
 ## 3. Incorporar el grown en los controladores que van a utilizar notificaciones
