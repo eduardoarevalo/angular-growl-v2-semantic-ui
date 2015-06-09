@@ -21,11 +21,5 @@
 		"karma.conf.js",
 		"demo",
 		".gitignore"
-	],
-	"dependencies": {
-		"angular": ">=1.2.1"
-	},
-	"devDependencies": {
-		"angular-mocks": ">=1.2.1"
-	}
+	]
 }
