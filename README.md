@@ -1,7 +1,7 @@
 # angular-growl-v2-semantic-ui
 
 
-## 1. En el modulo principal agregar, notificaciones.
+## 1. En el modulo principal agregar "notificaciones".
 
 Por ejemplo:
 <code>
