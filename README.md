@@ -4,8 +4,9 @@
 ## 1. En el modulo principal agregar, notificaciones.
 
 Por ejemplo:
-
+<code>
 angular.module('filePortal', ['notificaciones'])
+</code>
 
 
 ## 2. Incorporar la directiva growl en el modulo vista principal
@@ -14,15 +15,18 @@ Por ejemplo:
 
 main.html
 
+<code>
 <div class="main container">
     <div growl></div>
     ....
 </div>
+</code>
 
 ## 3. Incorporar el grown en los controladores que van a utilizar notificaciones
 
 Por ejemplo:
 
+<code>
 nombreModulo.controller('nombreControlador', ['$scope', 'growl', function ($scope, growl) {
 
   growl.error("Mensaje de la notificación de error", {title : 'Titulo de la notificación de error'});
@@ -45,3 +49,4 @@ nombreModulo.controller('nombreControlador', ['$scope', 'growl', function ($scop
   
   
 }]);
+</code>
