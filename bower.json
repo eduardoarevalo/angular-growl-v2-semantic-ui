@@ -1,31 +1,31 @@
 {
-  "name": "angular-growl-v2-semantic-ui",
-  "version": "1.0.0",
-  "description": "Angular growl v2 utilizando semantic ui",
-  "main": "angular-grow-semantic-ui.js, angular-grow-semantic-ui.css",
-  "main": ["./build/angular-grow-semantic-ui.js", "./build/angular-grow-semantic-ui.css"],
-  "moduleType": [
-    "globals"
-  ],
-  "keywords": [
-    "semantic-ui",
-    "notifications",
-    "growl",
-    "message"
-  ],
-  "authors": [
-    "Eduardo Arévalo Forero"
-  ],
-  "license": "MIT",
-  "homepage": "http://itac.com.co/",
-  "ignore": [
-    "src",
-    "test",
-    ".jshintrc",
-    "package.json",
-    "gruntfile.js",
-    "karma.conf.js",
-    "demo",
-    ".gitignore"
-  ]
+	"author": [
+			"Eduardo Arevalo"
+	],
+	"name": "angular-growl-v2-semantic-ui",
+	"description": "Angular growl v2 usando semantic ui",
+	"version": "1.0.0",
+	"homepage": "https://github.com/eduardoarevalo/angular-growl-v2-semantic-ui",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/eduardoarevalo/angular-growl-v2-semantic-ui"
+	},
+	"license": "MIT",
+	"main": ["./build/angular-grow-semantic-ui.js", "./build/angular-grow-semantic-ui.css"],
+	"ignore": [
+		"src",
+		"test",
+		".jshintrc",
+		"package.json",
+		"gruntfile.js",
+		"karma.conf.js",
+		"demo",
+		".gitignore"
+	],
+	"dependencies": {
+		"angular": ">=1.2.1"
+	},
+	"devDependencies": {
+		"angular-mocks": ">=1.2.1"
+	}
 }
