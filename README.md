@@ -19,7 +19,7 @@ main.html
 &ltdiv class="main container"&gt
     &ltdiv growl&gt&lt/div&gt
     ....
-&lt/divgt
+&lt/div&gt
 </code></pre>
 
 ## 3. Incorporar el grown en los controladores que van a utilizar notificaciones
